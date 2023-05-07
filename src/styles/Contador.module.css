@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    font-size: 60pt;
+}
+
+.circulo {
+    background-color: #ff0066;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.numero {
+    font-size: 45pt;
+}
+
+.botoes {
+    margin-top: 65px;
+    display: flex;
+    gap: 15px;
+}
+
+.botoes button {
+    font-size: 18pt;
+    border: none;
+    padding: 15px 20px 15px 20px;
+    border-radius: 11px;
+    color: white;
+}
+
+.botaoDecremento {
+    background-color: #ff0000;
+}
+
+.botaoReset {
+    background-color: #7300e6;
+}
+
+.botaoIncremento {
+    background-color: #00b33c;
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        height: 100vh;
+    }
+
+    .titulo {
+        font-size: 48pt;
+    }
+
+    .botoes {
+        margin-top: 30px;
+        flex-direction: column;
+    }
+}
